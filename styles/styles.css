@@ -1,0 +1,202 @@
+body{
+    background-color: burlywood;
+}
+
+.container{
+    padding: 0%;
+    margin-left: 0px;
+    width: 1000px;
+    height: 1000px;
+    
+    
+}
+
+.picture{
+    width: 150px;
+    height: 150px;
+    background: url(../image/pic1.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    padding: 20px;
+    margin-left: 130px;
+}
+
+.welcome{
+    background: burlywood;
+    width: 250px;
+    height: 100px;
+    box-shadow: 4px 4px 4px;
+    margin-left: 100px;
+}
+
+.about-me{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 0%;
+    margin-left: 10px;
+}
+
+.education{
+    margin-top: -280px;
+    margin-left: 600px;
+}
+
+.first-box{
+    
+    width: 500px;
+    height: 50px;
+    background-color: rgb(139, 82, 13);
+    box-shadow: 0px 4px;
+}
+.first-box h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.school{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.date{
+    font-weight: bold;
+}
+
+.institution{
+    font-weight: bold;
+}
+
+.school2{
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-evenly;
+    
+}
+
+.degree2 p{
+    text-align-last: left;
+}
+
+.date2{
+    font-weight: bold;
+}
+
+.institution2{
+    font-weight: bold;
+}
+
+.second-box{
+    
+    width: 500px;
+    height: 50px;
+    background-color: rgb(139, 82, 13);
+    box-shadow: 0px 4px;
+}
+
+.second-box h3{
+    font-size: 25px;
+    padding: 10px;
+}
+.date3{
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.institution3{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.experience{
+    display: flex;
+    margin-right: 70px;
+    justify-content: space-evenly;
+}
+
+.tasks{
+    margin-left: 150px;
+}
+
+.third-box{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(139, 82, 13);
+    box-shadow: 0px 4px;
+       
+}
+
+.third-box h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.skills{
+    margin-left: 50px;
+    margin-top: -400px;
+}
+
+.center{
+    width: 20%;
+    position: absolute;
+    top: 450px;
+    left: 60px;
+    transform: translate(-50px-5opx);
+    padding: 20px;
+    background: #333;
+    box-sizing: border-box;
+    box-shadow: 0 30px 20px rgba(0,0,0,.5);
+}
+
+.skillbox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.skillbox p{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-family: bold;
+    letter-spacing: 1px;
+}
+
+.skillbox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+}
+
+.skill{
+    background: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #0fffb7;
+    border-radius: 2px;
+}
+
+.skill_level{
+    background: #0fffb7;
+    width: 100%;
+    height: 10px;
+}
